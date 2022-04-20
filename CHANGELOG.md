@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.1.2] - 2022/04/20
+
+### Fixed
+
+- radme end cursor position for easy continue with next property
+
 ## [1.1.1] - 2022/04/20
 
 ### Fixed
