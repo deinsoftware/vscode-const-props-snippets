@@ -170,13 +170,13 @@ Please read [CONTRIBUTING](CONTRIBUTING.md) for details on our code of conduct, 
 
 ### Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [Const & Props Snippets](https://github.com/deinsoftware/const-props-snippets/tags) on GitHub.
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [Const & Props Snippets](https://github.com/deinsoftware/vscode-const-props-snippets/tags) on GitHub.
 
 ### Authors
 
 - **Camilo Martinez** [[Equiman](http://stackoverflow.com/story/equiman)]
 
-See also the list of [contributors](https://github.com/deinsoftware/const-props-snippets/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/deinsoftware/vscode-const-props-snippets/contributors) who participated in this project.
 
 ### Sponsors
 
