@@ -6,12 +6,12 @@
   },
   "reactComponentString": {
     "prefix": "rps",
-    "body": "${1:prop}='$0'",
+    "body": "${1:prop}='$2'$0",
     "description": "React Component Property String"
   },
   "reactComponentNumber": {
     "prefix": "rpn",
-    "body": "${1:prop}={{$0:0}}",
+    "body": "${1:prop}={${2:0}}$0",
     "description": "React Component Property Number"
   },
   "reactComponentBoolean": {
@@ -21,12 +21,12 @@
   },
   "reactPropertyObject": {
     "prefix": "rpo",
-    "body": "${1:prop}={{$0}}",
+    "body": "${1:prop}={{$2}}$0",
     "description": "React Component Property Object"
   },
   "reactPropertyArray": {
     "prefix": "rpa",
-    "body": "${1:prop}={[$0]}",
+    "body": "${1:prop}={[$2]}$0",
     "description": "React Component Property Array"
   }
 }
