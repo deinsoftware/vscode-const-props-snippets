@@ -1,0 +1,32 @@
+{
+  "reactProperty": {
+    "prefix": "rp",
+    "body": "${1:prop}=${1:prop}$0",
+    "description": "React Component Property (same name and same value)"
+  },
+  "reactComponentString": {
+    "prefix": "rps",
+    "body": "${1:prop}='$0'",
+    "description": "React Component Property String"
+  },
+  "reactComponentNumber": {
+    "prefix": "rpn",
+    "body": "${1:prop}={$0:0}",
+    "description": "React Component Property Number"
+  },
+  "reactComponentBoolean": {
+    "prefix": "rpb",
+    "body": "${1:prop}={${2|true,false|}}$0",
+    "description": "React Component Property Boolean"
+  },
+  "reactPropertyObject": {
+    "prefix": "rpo",
+    "body": "${1:prop}={{$0}}",
+    "description": "React Component Property Object"
+  },
+  "reactPropertyArray": {
+    "prefix": "rpa",
+    "body": "${1:prop}={[$0]}",
+    "description": "React Component Property Array"
+  }
+}
