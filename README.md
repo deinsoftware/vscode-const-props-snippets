@@ -25,6 +25,7 @@ The quick and easy way to create and use Const & Props with [VS Code](https://co
   - [Object Elements](#object-elements)
   - [JSON Elements](#json-elements)
   - [React Components](#react-components)
+- [Examples](#examples)
 - [About](#about)
 
 ---
@@ -141,6 +142,16 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `rpa→` | react property array         | `prop={[█]}`   |
 
 > ℹ️ Only available in `jsx` or `tsx`
+
+⇧ [Back to menu](#menu)
+
+---
+
+## Examples
+
+Create properties on a React component with `rp`, `rpn` and `rpb`
+
+![React](https://raw.githubusercontent.com/deinsoftware/vscode-const-props-snippets/main/.github/example-reactprops.gif 'React')
 
 ⇧ [Back to menu](#menu)
 
