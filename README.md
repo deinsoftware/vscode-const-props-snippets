@@ -149,9 +149,9 @@ Below is a list of all available snippets and the triggers of each one. The **â†
 
 ## Examples
 
-Create properties on a React component with `rp`, `rpn` and `rpb`
+Creating properties on a React component with `rp`, `rpn` and `rpb`
 
-![React](https://raw.githubusercontent.com/deinsoftware/vscode-const-props-snippets/main/.github/example-reactprops.gif 'React')
+![React](https://raw.githubusercontent.com/deinsoftware/vscode-const-props-snippets/main/.github/examples/example-reactprops.gif 'React')
 
 â‡§ [Back to menu](#menu)
 
