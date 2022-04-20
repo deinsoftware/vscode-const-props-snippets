@@ -1,7 +1,7 @@
 {
   "reactProperty": {
     "prefix": "rp",
-    "body": "${1:prop}=${1:prop}$0",
+    "body": "${1:prop}={${1:prop}}$0",
     "description": "React Component Property (same name and same value)"
   },
   "reactComponentString": {
@@ -11,7 +11,7 @@
   },
   "reactComponentNumber": {
     "prefix": "rpn",
-    "body": "${1:prop}={$0:0}",
+    "body": "${1:prop}={{$0:0}}",
     "description": "React Component Property Number"
   },
   "reactComponentBoolean": {
