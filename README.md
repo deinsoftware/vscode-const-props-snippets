@@ -135,11 +135,11 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  Trigger | Description                  | Result JSX/TSX |
 | -------: | ---------------------------- | -------------- |
 |    `rp→` | react property               | `prop={prop}█` |
-|   `rps→` | react property string        | `prop='█'`     |
+|   `rps→` | react property string        | `prop=''█`     |
 |   `rpn→` | react property number        | `prop={0}█`    |
 |   `rpb→` | react property boolean       | `prop={true}█` |
-|   `rpo→` | react property object        | `prop={{█}}`   |
-|   `rpa→` | react property array         | `prop={[█]}`   |
+|   `rpo→` | react property object        | `prop={{}}█`   |
+|   `rpa→` | react property array         | `prop={[]}█`   |
 
 > ℹ️ Only available in `jsx` or `tsx`
 
