@@ -24,6 +24,7 @@ The quick and easy way to create and use Const & Props with [VS Code](https://co
   - [Destructuring](#destructuring)
   - [Object Elements](#object-elements)
   - [JSON Elements](#json-elements)
+  - [React](#react)
   - [React Components](#react-components)
 - [Examples](#examples)
 - [About](#about)
@@ -131,6 +132,12 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 > ℹ️ Only available in `.json`, `.jsonc` and `.json5` files
 
+### React
+
+|  Trigger | Description                  | Result JSX/TSX                                                                                                                   |
+| -------: | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+|   `rhe→` | rect handle event            | <code>const handleEvent = (event) => {<br/>&nbsp;&nbsp;const {name, value} = event.target<br/>&nbsp;&nbsp;█<br/>}</code>         |
+
 ### React Components
 
 |  Trigger | Description                  | Result JSX/TSX              |
@@ -143,7 +150,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `rpa→` | react property array         | `prop={[]}█`                |
 |  `rpcn→` | react property className     | `className=''█`             |
 | `rpocl→` | react property onClick       | `onClick={handleClick}}█`   |
-| `rpocl→` | react property onChange      | `onChange={handleChange}}█` |
+| `rpoch→` | react property onChange      | `onChange={handleChange}}█` |
 
 > ℹ️ Only available in `jsx` or `tsx`
 

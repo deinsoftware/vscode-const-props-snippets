@@ -1,4 +1,14 @@
 {
+  "reactHandleEvent": {
+    "prefix": "rhe",
+    "body": [
+      "const ${1:handleEvent} = (event) => {",
+      "\tconst {name, ${2|value,valueAsNumber|valueAsDate|}} = event.target",
+      "\t$0",
+      "}"
+    ],
+    "description": "React Handle Event"
+  },
   "reactProperty": {
     "prefix": "rp",
     "body": "${1:prop}={${1:prop}}$0",
