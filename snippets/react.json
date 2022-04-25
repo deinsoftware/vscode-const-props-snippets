@@ -28,5 +28,20 @@
     "prefix": "rpa",
     "body": "${1:prop}={[$2]}$0",
     "description": "React Component Property Array"
+  },
+  "reactPropertyClassName": {
+    "prefix": "rpcn",
+    "body": "className='$1'$0",
+    "description": "React Component Property Class"
+  },
+  "reactPropertyOnClick": {
+    "prefix": "rpocl",
+    "body": "onClick={${1:handleClick}}$0",
+    "description": "React Component Property Class"
+  },
+  "reactPropertyHandleChange": {
+    "prefix": "rpoch",
+    "body": "onChange={${1:handleChange}}$0",
+    "description": "React Component Property Class"
   }
 }

@@ -9,6 +9,13 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.2.0] - 2022/04/21
+
+### Added
+
+- constant promise
+- react properties for `className`, `onClick` and `onChange`
+
 ## [1.1.4] - 2022/04/21
 
 ### Fixed

@@ -28,5 +28,14 @@
     "prefix": "ca",
     "body": "const ${1:name} = [$0]",
     "description": "Constant Array"
+  },
+  "constantPromise": {
+    "prefix": "cp",
+    "body": [
+      "const ${1:name} = new Promise((resolve, reject) => {",
+      "\t$0",
+      "})"
+    ],
+    "description": "Constant Promise"
   }
 }

@@ -77,19 +77,20 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Variables
 
-|  Trigger | Description                  | Result JS            | Result TS                                         |
-| -------: | ---------------------------- | -------------------- | ------------------------------------------------- |
-|    `cv→` | const variable               | `const name = █`     | `const name = █`                                  |
-|   `cvt→` | const variable type          |                      | `const name: type = █`                            |
-|   `cvm→` | const variable multiple type |                      | <code>const name: (type &#124; type) = █</code>   |
-|    `cs→` | const string                 | `const name = '█'`   | `const name: string = '█'`                        |
-|    `cn→` | const number                 | `const name = 0█`    | `const name: number = 0█`                         |
-|    `cb→` | const boolean                | `const name = true█` | `const name: boolean = true█`                     |
-|    `co→` | const object                 | `const name = {█}`   | `const name = {█}`                                |
-|   `coi→` | const object interface       |                      | `const name: Interface = {█}`                     |
-|    `ca→` | const array                  | `const name = [█]`   | `const name = [█]`                                |
-|   `cat→` | const array type             |                      | `const name: type = [█]`                          |
-|   `cam→` | const array multiple type    |                      | <code>const name: (type &#124; type) = [█]</code> |
+|  Trigger | Description                  | Result JS                                                        | Result TS                                                        |
+| -------: | ---------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+|    `cv→` | const variable               | `const name = █`                                                 | `const name = █`                                                 |
+|   `cvt→` | const variable type          |                                                                  | `const name: type = █`                                           |
+|   `cvm→` | const variable multiple type |                                                                  | <code>const name: (type &#124; type) = █</code>                  |
+|    `cs→` | const string                 | `const name = '█'`                                               | `const name: string = '█'`                                       |
+|    `cn→` | const number                 | `const name = 0█`                                                | `const name: number = 0█`                                        |
+|    `cb→` | const boolean                | `const name = true█`                                             | `const name: boolean = true█`                                    |
+|    `co→` | const object                 | `const name = {█}`                                               | `const name = {█}`                                               |
+|   `coi→` | const object interface       |                                                                  | `const name: Interface = {█}`                                    |
+|    `ca→` | const array                  | `const name = [█]`                                               | `const name = [█]`                                               |
+|   `cat→` | const array type             |                                                                  | `const name: type = [█]`                                         |
+|   `cam→` | const array multiple type    |                                                                  | <code>const name: (type &#124; type) = [█]</code>                |
+|    `cp→` | const promise                | <code>const name = new Promise({<br/>&nbsp;&nbsp;█<br/>})</code> | <code>const name = new Promise({<br/>&nbsp;&nbsp;█<br/>})</code> |
 
 ### Destructuring
 
@@ -132,14 +133,17 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### React Components
 
-|  Trigger | Description                  | Result JSX/TSX |
-| -------: | ---------------------------- | -------------- |
-|    `rp→` | react property               | `prop={prop}█` |
-|   `rps→` | react property string        | `prop=''█`     |
-|   `rpn→` | react property number        | `prop={0}█`    |
-|   `rpb→` | react property boolean       | `prop={true}█` |
-|   `rpo→` | react property object        | `prop={{}}█`   |
-|   `rpa→` | react property array         | `prop={[]}█`   |
+|  Trigger | Description                  | Result JSX/TSX              |
+| -------: | ---------------------------- | --------------------------- |
+|    `rp→` | react property               | `prop={prop}█`              |
+|   `rps→` | react property string        | `prop=''█`                  |
+|   `rpn→` | react property number        | `prop={0}█`                 |
+|   `rpb→` | react property boolean       | `prop={true}█`              |
+|   `rpo→` | react property object        | `prop={{}}█`                |
+|   `rpa→` | react property array         | `prop={[]}█`                |
+|  `rpcn→` | react property className     | `className=''█`             |
+| `rpocl→` | react property onClick       | `onClick={handleClick}}█`   |
+| `rpocl→` | react property onChange      | `onChange={handleChange}}█` |
 
 > ℹ️ Only available in `jsx` or `tsx`
 
