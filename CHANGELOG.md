@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.3.1] - 2022/04/26
+
+### Added
+
+- fix react handle event
+
 ## [1.3.0] - 2022/04/25
 
 ### Added

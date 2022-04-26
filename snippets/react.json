@@ -2,12 +2,32 @@
   "reactHandleEvent": {
     "prefix": "rhe",
     "body": [
-      "const ${1:handleEvent} = (event) => {",
-      "\tconst {name, ${2|value,valueAsNumber|valueAsDate|}} = event.target",
+      "const handle${1:Event} = (event) => {",
+      "\tconst {name, value} = event.target",
       "\t$0",
       "}"
     ],
     "description": "React Handle Event"
+  },
+  "reactHandleEventNumber": {
+    "prefix": "rhen",
+    "body": [
+      "const handle${1:Event} = (event) => {",
+      "\tconst {name, valueAsNumber} = event.target",
+      "\t$0",
+      "}"
+    ],
+    "description": "React Handle Event as Number"
+  },
+  "reactHandleEventDate": {
+    "prefix": "rhed",
+    "body": [
+      "const handle${1:Event} = (event) => {",
+      "\tconst {name, valueAsDate} = event.target",
+      "\t$0",
+      "}"
+    ],
+    "description": "React Handle Event as Date"
   },
   "reactProperty": {
     "prefix": "rp",

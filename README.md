@@ -134,9 +134,11 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### React
 
-|  Trigger | Description                  | Result JSX/TSX                                                                                                                   |
-| -------: | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-|   `rhe→` | rect handle event            | <code>const handleEvent = (event) => {<br/>&nbsp;&nbsp;const {name, value} = event.target<br/>&nbsp;&nbsp;█<br/>}</code>         |
+|  Trigger | Description                 | Result JSX/TSX                                                                                                                   |
+| -------: | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+|   `rhe→` | rect handle event           | <code>const handleEvent = (event) => {<br/>&nbsp;&nbsp;const {name, value} = event.target<br/>&nbsp;&nbsp;█<br/>}</code>         |
+|  `rhen→` | rect handle event as number | <code>const handleEvent = (event) => {<br/>&nbsp;&nbsp;const {name, valueAsNumber} = event.target<br/>&nbsp;&nbsp;█<br/>}</code> |
+|  `rhed→` | rect handle event as date   | <code>const handleEvent = (event) => {<br/>&nbsp;&nbsp;const {name, valueAsDate} = event.target<br/>&nbsp;&nbsp;█<br/>}</code>   |
 
 ### React Components
 
