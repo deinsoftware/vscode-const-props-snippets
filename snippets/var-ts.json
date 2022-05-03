@@ -57,7 +57,7 @@
   "constantPromise": {
     "prefix": "cp",
     "body": [
-      "const ${1:name} = new Promise((resolve, reject) => {",
+      "const ${1:name} = new Promise<${2|string,number,boolean,custom|}>((resolve, reject) => {",
       "\t$0",
       "})"
     ],

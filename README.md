@@ -91,7 +91,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |    `ca→` | const array                  | `const name = [█]`                                               | `const name = [█]`                                               |
 |   `cat→` | const array type             |                                                                  | `const name: type = [█]`                                         |
 |   `cam→` | const array multiple type    |                                                                  | <code>const name: (type &#124; type) = [█]</code>                |
-|    `cp→` | const promise                | <code>const name = new Promise((resolve, reject) => {<br/>&nbsp;&nbsp;█<br/>})</code> | <code>const name = new Promise((resolve, reject) => {<br/>&nbsp;&nbsp;█<br/>})</code> |
+|    `cp→` | const promise                | <code>const name = new Promise((resolve, reject) => {<br/>&nbsp;&nbsp;█<br/>})</code> | <code>const name = new Promise<string>((resolve, reject) => {<br/>&nbsp;&nbsp;█<br/>})</code> |
 
 ### Destructuring
 
