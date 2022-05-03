@@ -9,11 +9,17 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.3.2] - 2022/05/03
+
+### Fixed
+
+- const promise documentation
+
 ## [1.3.1] - 2022/04/26
 
-### Added
+### Fixed
 
-- fix react handle event
+- react handle event
 
 ## [1.3.0] - 2022/04/25
 

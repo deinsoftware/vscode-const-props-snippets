@@ -53,5 +53,14 @@
     "prefix": "cam",
     "body": "const ${1:name}: (${2|string,number,boolean,custom|} | ${3|string,number,boolean,custom|})[] = [$0]",
     "description": "Constant Multi Type Array"
+  },
+  "constantPromise": {
+    "prefix": "cp",
+    "body": [
+      "const ${1:name} = new Promise((resolve, reject) => {",
+      "\t$0",
+      "})"
+    ],
+    "description": "Constant Promise"
   }
 }
