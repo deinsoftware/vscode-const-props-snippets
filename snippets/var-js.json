@@ -6,7 +6,7 @@
   },
   "constantString": {
     "prefix": "cs",
-    "body": "const ${1:name} = '$0'",
+    "body": "const ${1:name} = '$1'$0",
     "description": "Constant String"
   },
   "constantNumber": {
@@ -21,12 +21,12 @@
   },
   "constantObject": {
     "prefix": "co",
-    "body": "const ${1:name} = {$0}",
+    "body": "const ${1:name} = {$2}$0",
     "description": "Constant Object"
   },
   "constantArray": {
     "prefix": "ca",
-    "body": "const ${1:name} = [$0]",
+    "body": "const ${1:name} = [$2]$0",
     "description": "Constant Array"
   },
   "constantPromise": {

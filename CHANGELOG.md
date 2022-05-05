@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.3.4] - 2022/05/05
+
+### Fixed
+
+- ending cursor position
+
 ## [1.3.3] - 2022/05/03
 
 ### Fixed

@@ -1,5 +1,23 @@
 {
-  "cSpell.words": ["buymeacoffee", "deinsoftware", "Equiman", "volta"],
+  "cSpell.words": [
+    "buymeacoffee",
+    "cadr",
+    "codr",
+    "deinsoftware",
+    "Equiman",
+    "jeam",
+    "jeom",
+    "oeam",
+    "oeom",
+    "patreon",
+    "paypal",
+    "rhed",
+    "rhen",
+    "rpcn",
+    "rpoch",
+    "rpocl",
+    "volta"
+  ],
   "markdownlint.config": {
     "MD024": { "siblings_only": true },
     "MD033": false
