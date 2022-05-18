@@ -1,6 +1,6 @@
 # Const & Props Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/deinsoftware.const-props-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version/deinsoftware.const-props-snippets.svg?color=blue)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/deinsoftware.const-props-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/deinsoftware.const-props-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
 [![license](https://img.shields.io/github/license/deinsoftware/vscode-const-props-snippets)](LICENSE.md)
