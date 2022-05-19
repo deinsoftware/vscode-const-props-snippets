@@ -4,6 +4,7 @@
     "cadr",
     "codr",
     "deinsoftware",
+    "Eomm",
     "Equiman",
     "jeam",
     "jeom",
@@ -16,7 +17,8 @@
     "rpcn",
     "rpoch",
     "rpocl",
-    "volta"
+    "volta",
+    "vuejs"
   ],
   "markdownlint.config": {
     "MD024": { "siblings_only": true },
