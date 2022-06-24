@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.5.1] - 2022/06/23
+
+### Fixed
+
+- Support property on README
+
 ## [1.5.0] - 2022/06/23
 
 ### Added
