@@ -10,7 +10,7 @@
 
 The quick and easy way to create and use Const & Props with [VS Code](https://code.visualstudio.com/).
 
-> We also **recommend** installing his complement extension [Arrow Function Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
+> We also **recommend** installing his complement extensions [Arrow Function Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets) and [Debug]https://marketplace.visualstudio.com/items?itemName=deinsoftware.debug-snippets)
 
 ## Menu
 
