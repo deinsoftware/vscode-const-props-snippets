@@ -1,7 +1,7 @@
 {
   "name": "const-props-snippets",
   "description": "VS Code Const & Props snippets for JS and TS",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "displayName": "Const & Props Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
