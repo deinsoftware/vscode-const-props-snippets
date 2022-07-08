@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.5.4] - 2022/07/08
+
+### Fixed
+
+- react snippets are not working on JSX
+
 ## [1.5.3] - 2022/07/06
 
 ### Fixed

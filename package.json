@@ -1,7 +1,7 @@
 {
   "name": "const-props-snippets",
   "description": "VS Code Const & Props snippets for JS and TS",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "displayName": "Const & Props Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -55,6 +55,10 @@
         "path": "./snippets/var-js.json"
       },
       {
+        "language": "javascript",
+        "path": "./snippets/react.json"
+      },
+      {
         "language": "javascriptreact",
         "path": "./snippets/destructuring.json"
       },
@@ -105,6 +109,10 @@
       {
         "language": "typescript",
         "path": "./snippets/elements.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/react.json"
       },
       {
         "language": "typescriptreact",
