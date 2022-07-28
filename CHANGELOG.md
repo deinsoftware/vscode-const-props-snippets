@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.6.0] - 2022/07/27
+
+### Added
+
+- Const destructuring in a safe way to avoid the `Cannot destructure Property of Undefined Error` when the variable is `undefined`.
+
 ## [1.5.4] - 2022/07/08
 
 ### Fixed
