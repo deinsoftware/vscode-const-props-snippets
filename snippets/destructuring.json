@@ -4,6 +4,11 @@
     "body": "const {${2:prop}, ${3:prop}} = ${1:name}$0",
     "description": "Constant Object Destructuring"
   },
+  "constantObjectDestructuringSafe": {
+    "prefix": "cods",
+    "body": "const {${2:prop}, ${3:prop}} = ${1:name} || {}$0",
+    "description": "Constant Object Destructuring Safe"
+  },
   "constantObjectDestructuringWithRest": {
     "prefix": "codr",
     "body": "const {${2:prop}, ${3:prop}, ...rest} = ${1:name}$0",
@@ -13,6 +18,11 @@
     "prefix": "cad",
     "body": "const [${2:prop}, ${3:prop}] = ${1:name}$0",
     "description": "Constant Array Destructuring"
+  },
+  "constantArrayDestructuringSafe": {
+    "prefix": "cad",
+    "body": "const [${2:prop}, ${3:prop}] = ${1:name} || []$0",
+    "description": "Constant Array Destructuring Safe"
   },
   "constantArrayDestructuringWithRest": {
     "prefix": "cadr",
