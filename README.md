@@ -98,10 +98,10 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  Trigger | Description                     | Result JS/TS                             |
 | -------: | ------------------------------- | ---------------------------------------- |
 |   `cod→` | const object dest               | `const {prop, prop} = name█`             |
-|  `cods→` | const object dest safe          | `const {prop, prop} = name || {}█`       |
+|  `cods→` | const object dest safe          | `const {prop, prop} = name \|\| {}█`     |
 |  `codr→` | const object dest with rest     | `const {prop, prop, ...rest} = name█`    |
 |   `cad→` | const array dest                | `const [prop, prop] = name█`             |
-|  `cads→` | const array dest safe           | `const [prop, prop] = name || []█`       |
+|  `cads→` | const array dest safe           | `const [prop, prop] = name \|\| []█`     |
 |  `cadr→` | const array dest with rest      | `const [prop, prop, ...rest] = name█`    |
 |    `pd→` | parameter object dest           | `{prop, prop}█`                          |
 |   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest}█`                 |
