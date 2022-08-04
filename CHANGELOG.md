@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.6.1] - 2022/08/04
+
+### Fixed
+
+- readme escape pipes for safe destructuring
+
 ## [1.6.0] - 2022/07/27
 
 ### Added
