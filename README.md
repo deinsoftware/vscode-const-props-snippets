@@ -1,8 +1,8 @@
 # Const & Props Snippets
 
-[![Version](https://vsmarketplacebadges.dev/version/deinsoftware.const-props-snippets.svg?color=blue&label=version)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
-[![Installs](https://vsmarketplacebadges.dev/installs/deinsoftware.const-props-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
-[![Ratings](https://vsmarketplacebadges.dev/rating-star/deinsoftware.const-props-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/deinsoftware.const-props-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/deinsoftware.const-props-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
+[![Ratings](https://img.shields.io/visual-studio-marketplace/stars/deinsoftware.const-props-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
 [![license](https://img.shields.io/github/license/deinsoftware/vscode-const-props-snippets)](LICENSE.md)
 [![Open in VS Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/deinsoftware/vscode-const-props-snippets)
 
