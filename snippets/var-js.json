@@ -6,7 +6,7 @@
   },
   "constantString": {
     "prefix": "cs",
-    "body": "const ${1:name} = '$1'$0",
+    "body": "const ${1:name} = '$2'$0",
     "description": "Constant String"
   },
   "constantNumber": {

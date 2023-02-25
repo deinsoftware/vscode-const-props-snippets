@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.6.4 - 2023/02/25
+
+### Fixed
+
+- `cs` string snippet on JS
+
 ## 1.6.3 - 2022/12/14
 
 ### Fixed
