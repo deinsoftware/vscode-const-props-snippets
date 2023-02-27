@@ -20,7 +20,7 @@
     "description": "Constant Array Destructuring"
   },
   "constantArrayDestructuringSafe": {
-    "prefix": "cad",
+    "prefix": "cads",
     "body": "const [${2:prop}, ${3:prop}] = ${1:name} || []$0",
     "description": "Constant Array Destructuring Safe"
   },
