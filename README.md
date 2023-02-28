@@ -27,6 +27,7 @@ The quick and easy way to create and use Const & Props with [VS Code](https://co
   - [React](#react)
   - [React Components](#react-components)
 - [Examples](#examples)
+- [Settings](#settings)
 - [About](#about)
 
 ---
@@ -167,6 +168,18 @@ Below is a list of all available snippets and the triggers of each one. The **�
 Creating properties on a React component with `rp`, `rpn` and `rpb`
 
 ![React](https://raw.githubusercontent.com/deinsoftware/vscode-const-props-snippets/main/.github/examples/example-reactprops.gif 'React')
+
+⇧ [Back to menu](#menu)
+
+---
+
+## Settings
+
+The `editor.snippetSuggestions` setting in vscode `settings.json` will show snippets on top of the suggestion list.
+
+```json
+"editor.snippetSuggestions": "top"
+```
 
 ⇧ [Back to menu](#menu)
 
