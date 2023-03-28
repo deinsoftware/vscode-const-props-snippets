@@ -9,6 +9,17 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.8.0 - 2023/03/28
+
+## Added
+
+- constant with template literals
+- tab indicators on README
+
+## Fixed
+
+- object elements and JSON elements names of variables
+
 ## 1.7.0 - 2023/02/27
 
 ### Added

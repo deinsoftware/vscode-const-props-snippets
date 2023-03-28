@@ -27,6 +27,7 @@ The quick and easy way to create and use Const & Props with [VS Code](https://co
   - [React](#react)
   - [React Components](#react-components)
 - [Examples](#examples)
+- [Keyboard](#keyboard)
 - [Settings](#settings)
 - [About](#about)
 
@@ -75,63 +76,64 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 
 ## Snippets
 
-Below is a list of all available snippets and the triggers of each one. The **→** means the `TAB` key and `█` the final cursor position.
+Below is a list of all available snippets and the triggers of each one. The `░` means the `TAB` jump position and `█` the final cursor position.
 
 ### Variables
 
-|  Trigger | Description                  | Result JS                                                                             | Result TS                                                                                     |
-| -------: | ---------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-|    `cv→` | const variable               | `const name = █`                                                                      | `const name = █`                                                                              |
-|   `cvt→` | const variable type          |                                                                                       | `const name: type = █`                                                                        |
-|   `cvm→` | const variable multiple type |                                                                                       | <code>const name: (type &#124; type) = █</code>                                               |
-|    `cs→` | const string                 | `const name = ''█`                                                                    | `const name: string = ''█`                                                                    |
-|    `cn→` | const number                 | `const name = 0█`                                                                     | `const name: number = 0█`                                                                     |
-|    `cb→` | const boolean                | `const name = true█`                                                                  | `const name: boolean = true█`                                                                 |
-|    `co→` | const object                 | `const name = {}█`                                                                    | `const name = {}█`                                                                            |
-|   `coi→` | const object interface       |                                                                                       | `const name: Interface = {}█`                                                                 |
-|    `ca→` | const array                  | `const name = []█`                                                                    | `const name = []█`                                                                            |
-|   `cat→` | const array type             |                                                                                       | `const name: type = []█`                                                                      |
-|   `cam→` | const array multiple type    |                                                                                       | <code>const name: (type &#124; type) = []█</code>                                             |
-|    `cp→` | const promise                | <code>const name = new Promise((resolve, reject) => {<br/>&nbsp;&nbsp;█<br/>})</code> | <code>const name = new Promise<string>((resolve, reject) => {<br/>&nbsp;&nbsp;█<br/>})</code> |
+|  Trigger | Description                  | Result JS                                                                              | Result TS                                                                                      |
+| -------: | ---------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+|    `cv→` | const variable               | `const ░name = █`                                                                      | `const ░name = █`                                                                              |
+|   `cvt→` | const variable type          |                                                                                        | `const ░name: ░type = █`                                                                       |
+|   `cvm→` | const variable multiple type |                                                                                        | <code>const ░name: (░type &#124; ░type) = █</code>                                             |
+|    `cs→` | const string                 | `const ░name = '░'█`                                                                   | `const ░name: string = '░'█`                                                                   |
+|   `ctl→` | const template literals      | ``const ░name = `░${░expression}░`█``                                                  | ``const ░name: string = `░${░expression}░`█``                                                  |
+|    `cn→` | const number                 | `const ░name = ░0█`                                                                    | `const ░name: number = ░0█`                                                                    |
+|    `cb→` | const boolean                | `const ░name = ░true█`                                                                 | `const ░name: boolean = ░true█`                                                                |
+|    `co→` | const object                 | `const ░name = {░}█`                                                                   | `const ░name = {░}█`                                                                           |
+|   `coi→` | const object interface       |                                                                                        | `const ░name: Interface = {░}█`                                                                |
+|    `ca→` | const array                  | `const ░name = [░]█`                                                                   | `const ░name = [░]█`                                                                           |
+|   `cat→` | const array type             |                                                                                        | `const ░name: type = [░]█`                                                                     |
+|   `cam→` | const array multiple type    |                                                                                        | <code>const ░name: (░type &#124; ░type) = [░]█</code>                                          |
+|    `cp→` | const promise                | <code>const ░name = new Promise((resolve, reject) => {<br/>&nbsp;&nbsp;█<br/>})</code> | <code>const ░name = new Promise<string>((resolve, reject) => {<br/>&nbsp;&nbsp;█<br/>})</code> |
 
 ### Destructuring
 
-|  Trigger | Description                     | Result JS/TS                             |
-| -------: | ------------------------------- | ---------------------------------------- |
-|   `cod→` | const object dest               | `const {prop, prop} = name█`             |
-|  `cods→` | const object dest safe          | `const {prop, prop} = name \|\| {}█`     |
-|  `codr→` | const object dest with rest     | `const {prop, prop, ...rest} = name█`    |
-|   `cad→` | const array dest                | `const [prop, prop] = name█`             |
-|  `cads→` | const array dest safe           | `const [prop, prop] = name \|\| []█`     |
-|  `cadr→` | const array dest with rest      | `const [prop, prop, ...rest] = name█`    |
-|    `pd→` | parameter object dest           | `{prop, prop}█`                          |
-|   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest}█`                 |
+|  Trigger | Description                     | Result JS/TS                               |
+| -------: | ------------------------------- | ------------------------------------------ |
+|   `cod→` | const object dest               | `const {░prop, ░prop} = ░name█`            |
+|  `cods→` | const object dest safe          | `const {░prop, ░prop} = ░name \|\| {}█`    |
+|  `codr→` | const object dest with rest     | `const {░prop, ░prop, ...rest} = ░name█`   |
+|   `cad→` | const array dest                | `const [░prop, ░prop] = ░name█`            |
+|  `cads→` | const array dest safe           | `const [░prop, ░prop] = ░name \|\| []█`    |
+|  `cadr→` | const array dest with rest      | `const [░prop, ░prop, ...rest] = ░name█`   |
+|    `pd→` | parameter object dest           | `{░prop, ░prop}█`                          |
+|   `pdr→` | parameter object dest with rest | `{░prop, ░prop, ...rest}█`                 |
 
 ### Object Elements
 
-|  Trigger | Description                  | Result JS/TS                                          |
-| -------: | ---------------------------- | ----------------------------------------------------- |
-|   `oev→` | obj element variable         | `key: value,█`                                        |
-|   `oes→` | obj element string           | `key: 'value',█`                                      |
-|   `oen→` | obj element number           | `key: number,█`                                       |
-|   `oeb→` | obj element boolean          | `key: true,█`                                         |
-|   `oeo→` | obj element object           | `key: { element },█`                                  |
-|  `oeom→` | obj element object multiline | <code>key: {<br/>&nbsp;&nbsp;element, <br/>},█</code> |
-|   `oea→` | obj element array            | `key: [ value ],█`                                    |
-|  `oeam→` | obj element array multiline  | <code>key: [<br/>&nbsp;&nbsp;value, <br/>],█</code>   |
+|  Trigger | Description                  | Result JS/TS                                                                       |
+| -------: | ---------------------------- | ---------------------------------------------------------------------------------- |
+|   `oev→` | obj element variable         | `░key: ░value,█`                                                                   |
+|   `oes→` | obj element string           | `░key: '░value',█`                                                                 |
+|   `oen→` | obj element number           | `░key: ░number,█`                                                                  |
+|   `oeb→` | obj element boolean          | `░key: ░true,█`                                                                    |
+|   `oeo→` | obj element object           | `░key: { ░element },█`                                                             |
+|  `oeom→` | obj element object multiline | <code>░key: {<br/>&nbsp;&nbsp;░element, ░<br/>},█</code> |
+|   `oea→` | obj element array            | `░key: [ ░value ],█`                                                               |
+|  `oeam→` | obj element array multiline  | <code>░key: [<br/>&nbsp;&nbsp;░value, ░<br/>],█</code>   |
 
 ### JSON Elements
 
-|  Trigger | Description                   | Result JS/TS                                            |
-| -------: | ----------------------------- | ------------------------------------------------------- |
-|   `jes→` | json element string           | `key: 'value',█`                                        |
-|   `jev→` | json element variable         | `key: value,█`                                          |
-|   `jen→` | json element number           | `key: number,█`                                         |
-|   `jeb→` | json element boolean          | `key: true,█`                                           |
-|   `jeo→` | json element object           | `key: { element },█`                                    |
-|  `jeom→` | json element object multiline | <code>key: {<br/>&nbsp;&nbsp;element , <br/>},█</code>  |
-|   `jea→` | json element array            | `key: [ value ],█`                                      |
-|  `jeam→` | json element array multiline  | <code>key: [<br/>&nbsp;&nbsp;value , <br/>],█</code>    |
+|  Trigger | Description                   | Result JS/TS                                                                      |
+| -------: | ----------------------------- | --------------------------------------------------------------------------------- |
+|   `jes→` | json element string           | `░key: '░value',█`                                                                |
+|   `jev→` | json element variable         | `░key: ░value,█`                                                                  |
+|   `jen→` | json element number           | `░key: ░number,█`                                                                 |
+|   `jeb→` | json element boolean          | `░key: ░true,█`                                                                   |
+|   `jeo→` | json element object           | `░key: { ░element },█`                                                            |
+|  `jeom→` | json element object multiline | <code>░key: {<br/>&nbsp;&nbsp;░element ,░ <br/>},█</code>  |
+|   `jea→` | json element array            | `░key: [ ░value ],█`                                                              |
+|  `jeam→` | json element array multiline  | <code>░key: [<br/>&nbsp;&nbsp;░value ,░ <br/>],█</code>    |
 
 > ℹ️ Only available in `.json`, `.jsonc` and `.json5` files
 
@@ -139,23 +141,23 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 |  Trigger | Description                  | Result JSX/TSX                                                                                                                   |
 | -------: | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-|   `rhe→` | react handle event           | <code>const handleEvent = (event) => {<br/>&nbsp;&nbsp;const {name, value} = event.target<br/>&nbsp;&nbsp;█<br/>}</code>         |
-|  `rhen→` | react handle event as number | <code>const handleEvent = (event) => {<br/>&nbsp;&nbsp;const {name, valueAsNumber} = event.target<br/>&nbsp;&nbsp;█<br/>}</code> |
-|  `rhed→` | react handle event as date   | <code>const handleEvent = (event) => {<br/>&nbsp;&nbsp;const {name, valueAsDate} = event.target<br/>&nbsp;&nbsp;█<br/>}</code>   |
+|   `rhe→` | react handle event           | <code>const handle░Event = (event) => {<br/>&nbsp;&nbsp;const {name, value} = event.target<br/>&nbsp;&nbsp;█<br/>}</code>         |
+|  `rhen→` | react handle event as number | <code>const handle░Event = (event) => {<br/>&nbsp;&nbsp;const {name, valueAsNumber} = event.target<br/>&nbsp;&nbsp;█<br/>}</code> |
+|  `rhed→` | react handle event as date   | <code>const handle░Event = (event) => {<br/>&nbsp;&nbsp;const {name, valueAsDate} = event.target<br/>&nbsp;&nbsp;█<br/>}</code>   |
 
 ### React Components
 
-|  Trigger | Description                  | Result JSX/TSX              |
-| -------: | ---------------------------- | --------------------------- |
-|    `rp→` | react property               | `prop={prop}█`              |
-|   `rps→` | react property string        | `prop=''█`                  |
-|   `rpn→` | react property number        | `prop={0}█`                 |
-|   `rpb→` | react property boolean       | `prop={true}█`              |
-|   `rpo→` | react property object        | `prop={{}}█`                |
-|   `rpa→` | react property array         | `prop={[]}█`                |
-|  `rpcn→` | react property className     | `className=''█`             |
-| `rpocl→` | react property onClick       | `onClick={handleClick}}█`   |
-| `rpoch→` | react property onChange      | `onChange={handleChange}}█` |
+|  Trigger | Description                  | Result JSX/TSX             |
+| -------: | ---------------------------- | -------------------------- |
+|    `rp→` | react property               | `░prop={░prop}█`             |
+|   `rps→` | react property string        | `░prop='░'█`                 |
+|   `rpn→` | react property number        | `░prop={░0}█`                |
+|   `rpb→` | react property boolean       | `░prop={░true}█`             |
+|   `rpo→` | react property object        | `░prop={{░}}█`               |
+|   `rpa→` | react property array         | `░prop={[░]}█`               |
+|  `rpcn→` | react property className     | `className='░'█`            |
+| `rpocl→` | react property onClick       | `onClick={░handleClick}█`   |
+| `rpoch→` | react property onChange      | `onChange={░handleChange}█` |
 
 > ℹ️ Only available in `jsx` or `tsx`
 
@@ -170,6 +172,17 @@ Creating properties on a React component with `rp`, `rpn` and `rpb`
 ![React](https://raw.githubusercontent.com/deinsoftware/vscode-const-props-snippets/main/.github/examples/example-reactprops.gif 'React')
 
 ⇧ [Back to menu](#menu)
+
+---
+
+## Keyboard
+
+Remember to complement the snippets with these keyboard shortcuts that can be used without needing to move the cursor to the start or to the end.
+
+| Action            | Win/Linux          | macOS             |
+| ----------------- | -----------------: | ----------------: |
+| Insert line above | `ctrl+shift+enter` | `cmd+shift+enter` |
+| Insert line below | `ctrl+enter`       | `cmd+enter`       |
 
 ---
 
@@ -191,6 +204,7 @@ The `editor.snippetSuggestions` setting in vscode `settings.json` will show snip
 
 - [VS Code](https://code.visualstudio.com/) - Code editing redefined.
 - [Figma](https://www.figma.com/) - The collaborative interface design tool.
+- [SWPM](https://www.npmjs.com/package/swpm) - One Package Manager to command them all.
 
 ### Contributing
 

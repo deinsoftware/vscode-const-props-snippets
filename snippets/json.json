@@ -21,12 +21,12 @@
   },
   "jsonElementObject": {
     "prefix": "jeo",
-    "body": "\"${1:key}\": { $2 },$0",
+    "body": "\"${1:key}\": { ${2:element} },$0",
     "description": "JSON Element Object"
   },
   "jsonElementObjectMultiline": {
     "prefix": "jeom",
-    "body": ["\"${1:key}\": {", "\t$2 , $3", "},$0"],
+    "body": ["\"${1:key}\": {", "\t${2:element} , $3", "},$0"],
     "description": "Object Element Object"
   },
   "jsonElementArray": {
