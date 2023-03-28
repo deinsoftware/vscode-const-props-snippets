@@ -21,12 +21,12 @@
   },
   "objectElementObject": {
     "prefix": "oeo",
-    "body": "${1:key}: { $2 },$0",
+    "body": "${1:key}: { ${2:element} },$0",
     "description": "Object Element Object"
   },
   "objectElementObjectMultiline": {
     "prefix": "oeom",
-    "body": ["${1:key}: {", "\t$2, $3", "},$0"],
+    "body": ["${1:key}: {", "\t${2:element}, $3", "},$0"],
     "description": "Object Element Object"
   },
   "objectElementArray": {

@@ -9,6 +9,11 @@
     "body": "const ${1:name} = '$2'$0",
     "description": "Constant String"
   },
+  "constantTemplateLiterals": {
+    "prefix": "ctl",
+    "body": "const ${1:name} = `$2\\${$3:expression\\}$4`$0",
+    "description": "Constant Template Literals"
+  },
   "constantNumber": {
     "prefix": "cn",
     "body": "const ${1:name} = ${0:0}",
