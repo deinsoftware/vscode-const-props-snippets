@@ -15,6 +15,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 - constant with template literals
 - tab indicators on README
+- recommended keyboard shortcuts
 
 ## Fixed
 
