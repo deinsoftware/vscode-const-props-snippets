@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.8.1 - 2023/03/28
+
+## Fixed
+
+- constant template literals expression variable
+
 ## 1.8.0 - 2023/03/28
 
 ## Added
