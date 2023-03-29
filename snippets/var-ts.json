@@ -21,7 +21,7 @@
   },
   "constantTemplateLiterals": {
     "prefix": "ctl",
-    "body": "const ${1:name}: string = `$2\\${$3:expression\\}$4`$0",
+    "body": "const ${1:name}: string = `$2\\${${3:expression}\\}$4`$0",
     "description": "Constant Template Literals"
   },
   "constantNumber": {
