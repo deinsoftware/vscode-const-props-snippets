@@ -9,21 +9,27 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.8.2 - 2023/04/14
+
+### Fixed
+
+- back to home link on README
+
 ## 1.8.1 - 2023/03/28
 
-## Fixed
+### Fixed
 
 - constant template literals expression variable
 
 ## 1.8.0 - 2023/03/28
 
-## Added
+### Added
 
 - constant with template literals
 - tab indicators on README
 - recommended keyboard shortcuts
 
-## Fixed
+### Fixed
 
 - object elements and JSON elements names of variables
 
