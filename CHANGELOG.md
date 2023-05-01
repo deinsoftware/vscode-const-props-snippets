@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.9.0 - 2023/05/01
+
+### Added
+
+- constant object freeze snippet
+
 ## 1.8.2 - 2023/04/14
 
 ### Fixed

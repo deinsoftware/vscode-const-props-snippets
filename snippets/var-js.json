@@ -29,6 +29,11 @@
     "body": "const ${1:name} = {$2}$0",
     "description": "Constant Object"
   },
+  "constantObjectFreeze": {
+    "prefix": "cof",
+    "body": "const ${1:name} = Object.freeze({$2})$0",
+    "description": "Constant Object Freeze"
+  },
   "constantArray": {
     "prefix": "ca",
     "body": "const ${1:name} = [$2]$0",
